@@ -11,15 +11,17 @@ body {
   margin: auto;
   }
 
-.info {
-  column-count: 2;
-  float: left;
-  }
-
-.left {
-  width: 40%;
-  }
-
-.right {
-  width: 60%;
+info {
+  .column {
+    column-count: 2;
+    float: left;
+    }
+  
+  .left {
+    width: 40%;
+    }
+  
+  .right {
+    width: 60%;
+    }
   }
