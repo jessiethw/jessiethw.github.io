@@ -2176,15 +2176,6 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.smol {
-			display: block;
-			border-radius: 5px;
-		}
-			.image.smol img {
-				display: block;
-				width: 20%;
-			}
-
 		.image.fit {
 			display: block;
 			margin: 0 0 2.25em 0;
