@@ -12,15 +12,32 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
-		<!-- Header -->
+		<!--
+		<div id="AboutHeader"></div>
+    
+		<script>
+			// Fetch the external HTML snippet
+			fetch('sidebar.html')
+				.then(response => {
+					if (!response.ok) throw new Error('Failed to load snippet');
+					return response.text();
+				})
+				.then(data => {
+					// Inject the HTML into the placeholder
+					document.getElementById('AboutHeader').innerHTML = data;
+				})
+				.catch(error => console.error('Error:', error));
+    
+		</script>
+		--> 
 			<section id="header">
 				<header>
 					<span class="image avatar"><img src="photos/PXL_20220410_004004450.MP.jpg" alt="photo of Jessie Thwaites" /></span>
-					<h1 id="logo">Jessie Thwaites</h1>
-					<p>Postdoc<br/>
+					<h1 id="logo">Dr. Jessie Thwaites</h1>
+					<p>Postdoctoral Researcher<br/>
 					Department of Physics, Engineering Physics, and Astronomy<br/>
-					Queen's University</p>
+					Queen's University<br/>
+					</p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -32,9 +49,8 @@
 				</nav>
 				<footer>
 					<ul class="icons">
-						<!--li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li-->
 						<li><a href="https://github.com/jessiethw" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:thwaites@wisc.edu" class="icon solid fa-envelope"><span class="label">thwaites@wisc.edu</span></a></li>
+						<li><a href="mailto:jthwaites@icecube.wisc.edu" class="icon solid fa-envelope"><span class="label">jthwaites@icecube.wisc.edu</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -52,9 +68,15 @@
 								</div>
 								<div class="container">
 									<h3>About</h3>
-									<p>I am a postdoc at the Laboratory for Extreme Multi-Messenger Astrophysics (<a href="https://www.queensu.ca/physics/lemma/">LEMMA</a>) at Queen's University. I am interested in multi-messenger astrophysics, specifically searching for high-energy sources of astrophysical neutrinos with the <a href="https://icecube.wisc.edu/">IceCube Neutrino Observatory</a> and <a href="https://www.pacific-neutrino.org/">Pacific Ocean Neutrino Experiment (P-ONE)</a>.</p> 
-									<p> I earned my PhD at the University of Wisconsin-Madison and Wisconsin IceCube Particle Astrophysics Center (WIPAC), searching for transient astrophysical neutrino sources in real-time, including following up LIGO-Virgo-KAGRA identified gravitational wave events.</p>
-										<p>Outside of physics, I enjoy rock climbing, being outside (hiking, biking, and swimming in the summer), playing French horn, and hanging out with my cat, Chili.</p>
+									<p>I am a postdoc at the Laboratory for Extreme Multi-Messenger Astrophysics (<a href="https://www.queensu.ca/physics/lemma/">LEMMA</a>) at Queen's University. 
+									I am interested in multi-messenger astrophysics, specifically searching for high-energy sources 
+									of astrophysical neutrinos with the <a href="https://icecube.wisc.edu/">IceCube Neutrino Observatory</a> 
+									and <a href="https://www.pacific-neutrino.org/">Pacific Ocean Neutrino Experiment (P-ONE)</a>.</p> 
+									<p> I earned my PhD at the University of Wisconsin-Madison and Wisconsin IceCube Particle Astrophysics 
+									Center (WIPAC), searching for transient astrophysical neutrino sources in real-time with IceCube, including 
+									follow-up of LIGO-Virgo-KAGRA identified gravitational wave events.</p>
+									<p>Outside of physics, I enjoy rock climbing, being outside (hiking, biking, and swimming in the summer), 
+									playing French horn, and hanging out with my cat, Chili.</p>
 
 								<!--<ul class="actions">
 								    <li><a href="CV_2024updated_webpage.pdf" class="button primary">CV (PDF, updated 12/2024)</a></li>
@@ -67,11 +89,11 @@
 							<section id="research">
 								<div class="container">
 									<h3>Research and Publications</h3>
-									 <p>See my profile on InspireHEP or ORCID for a full list of publications, or read more at the link below.</p>
+									 <p>See my highlighted publications below, or my profile on InspireHEP or ORCID for a full list of publications.</p>
 									<ul class="actions">
+									     <li><a href="research.html" class="button primary">Selected Publications</a></li>
 									     <li><a href="https://inspirehep.net/authors/2009387" class="button secondary">InspireHEP</a></li>
 									     <li><a href="https://orcid.org/0000-0001-9179-3760" class="button secondary">ORCID</a></li>
-									     <li><a href="research.html" class="button primary">Selected Publications</a></li>
 									 </ul>
 								</div>
 							</section>
@@ -80,8 +102,10 @@
 							<section id="astrobites">
 								<div class="container">
 									<h3>Astrobites</h3>
-									<p>Science communication and outreach are an important part of science. 
-                                        As part of the Astrobites Collaboration I've written several blog posts covering a variety of topics, 
+									<p>Science communication and outreach are an important part of my science. 
+                                        As a graduate student, I was part of the Astrobites Collaboration, which aims to make current research accessible to undergraduates 
+					and the general public. 
+					I've written several blog posts covering a variety of topics, 
                                         from astrophysical transients to gravitational wave sources. </p>
 									
                                     <ul class="actions">
